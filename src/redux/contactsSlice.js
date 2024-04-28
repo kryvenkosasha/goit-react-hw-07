@@ -3,6 +3,8 @@ import { createSlice, nanoid } from "@reduxjs/toolkit";
 export const initialContact = {
   contacts: {
     items: [],
+    loading: false,
+    error: null,
   },
   filters: {
     name: "",
